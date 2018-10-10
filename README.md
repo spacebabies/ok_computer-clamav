@@ -1,6 +1,6 @@
 # OkComputer::Clamav
 
-Monitor `clamd` from the luxury of your existing OkComputer setup!
+Monitor `clamd` from the luxury of your existing [OkComputer](https://github.com/sportngin/okcomputer/) setup!
 
 This check will make noise when the daemon does not respond to messages. It
 makes a socket connection, sends a PING and waits for a PONG. If any of that
