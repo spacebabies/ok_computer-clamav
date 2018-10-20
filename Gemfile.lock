@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ok_computer-clamav (0.1.0)
+    ok_computer-clamav (1.0.0)
       okcomputer (>= 1.0.0)
 
 GEM
