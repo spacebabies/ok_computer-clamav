@@ -23,7 +23,15 @@ And then execute:
 In `config/initializers/ok_computer.rb`:
 
 ``` ruby
-OkComputer::Registry.register "clamd", OkComputer::Clamav::ClamdCheck.new
+OkComputer::Registry.register "clamd",
+  OkComputer::Clamav::ClamdCheck.new
+```
+
+By default it uses the standard Debian/Ubuntu socket path. You can change that:
+
+``` ruby
+OkComputer::Registry.register "clamd", 
+  OkComputer::Clamav::ClamdCheck.new(socket: '/tmp/clamd.sock') # e.g. Homebrew
 ```
 
 ## Development
