@@ -6,6 +6,8 @@ This check will make noise when the daemon does not respond to messages. It
 makes a socket connection, sends a PING and waits for a PONG. If any of that
 does not occur, you'll know it.
 
+[![Gem Version](https://badge.fury.io/rb/ok_computer-clamav.svg)](https://badge.fury.io/rb/ok_computer-clamav)
+
 ## Installation
 
 Add this line to your application's Gemfile:
