@@ -1,14 +1,14 @@
 PATH
   remote: .
   specs:
-    ok_computer-clamav (1.0.0)
+    ok_computer-clamav (2.0.0)
       okcomputer (>= 1.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.3)
-    okcomputer (1.17.3)
+    okcomputer (1.18.2)
     rake (12.3.3)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
