@@ -1,3 +1,6 @@
+require 'ok_computer/check'
+require 'socket'
+
 module OkComputer
   module Clamav
     # This class performs a health check on a clamd instance using the
